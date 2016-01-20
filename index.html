@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta content="telephone=no" name="format-detection" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<style type="text/css">
+		html,body,ul{margin: 0;padding: 0}
+		li{list-style: none;}
+			.slideBox,.slideBox img{
+				max-height: 120px;
+				overflow: hidden;
+			}
+		.slideCont{
+			 -webkit-transition:all .3s ease;
+		    -moz-transition:all .3s ease;
+		    -o-transition:all .3s ease;
+		    -ms-transition:all .3s ease;
+		    transition:all .3s ease;
+		}
+		.indicator{
+			display: block;
+			position: absolute;
+			left:0;
+			bottom: 0;
+		}
+		.indicator i {
+		    width: 16px;
+		    height: 16px;
+		    display: inline-block;
+		    border-radius: 50%;
+		    background: #fff;
+		    margin-right: 5px;
+		    opacity: .5;
+		}
+		.indicator .active {
+		    opacity: 1;
+		}
+	</style>
+    <script type="text/javascript" src="slider.js"></script>
+    <script type="text/javascript">
+    	window.onload = function(){
+    		new Slider({
+    			el:document.getElementById("ad"),
+    			content:'.slideCont',
+                item:'.slideItem',
+                loop: true,
+                fn:function(){
+                    var i = this.index;
+                    console.log(i);
+                }
+    		});
+    		new Slider({
+    			el:document.getElementById("ad1"),
+    			content:'.slideCont',
+                item:'.slideItem',
+                loop: true,
+                duration: 2000,
+                fn:function(){
+                    var i = this.index;
+                    console.log(i);
+                }
+    		});
+    		new Slider({
+    			el:document.getElementById("ad2"),
+    			content:'.slideCont',
+                item:'.slideItem',
+                loop: true,
+                duration: 1000,
+                fn:function(){
+                    var i = this.index;
+                    console.log(i);
+                }
+    		});
+    		
+    		
+    	}
+    </script>
+</head>
+<body>
+	<div id="ad" class="slideBox">
+			<div class="slideMain">
+				<ul class="slideCont">
+					<li class="slideItem">
+						<a href="http://app.ly.com/train/html/train/refundticket/refundticketqq.html?_wv=49937" onclick="_tcTraObj._tcTrackEvent('click','guanggaolan01','wxhome','')"><img src="http://pic3.40017.cn/txoc/poster/2016/01/12/17/a5anSB.png" alt="">
+						</a>
+					</li>
+					<li class="slideItem">
+						<a href="http://open.show.qq.com/cgi-bin/login_state_auth_redirect?appid=101177501&amp;redirect_uri=http%3A%2F%2Fwx.17u.cn%2Fqqtrain%2F&amp;_wv=3" onclick="_tcTraObj._tcTrackEvent('click','guanggaolan11','wxhome','')"><img src="http://pic3.40017.cn/txoc/poster/2015/12/31/16/it99Gu.png" alt="">
+						</a>
+					</li>
+					<li class="slideItem">
+						<a href="http://app.ly.com/train/html/train/grabTicketQQ.html?tcwvclogin&amp;_wv=49937&amp;_wvc5=1" onclick="_tcTraObj._tcTrackEvent('click','guanggaolan21','wxhome','')"><img src="http://pic3.40017.cn/txoc/poster/2016/01/08/20/Vw2Qw1.png" alt="">
+						</a>
+					</li>
+				
+				</ul>
+		</div>
+	</div>
+	<div id="ad1" class="slideBox">
+			<div class="slideMain">
+				<ul class="slideCont">
+					<li class="slideItem">
+						<a href="http://app.ly.com/train/html/train/refundticket/refundticketqq.html?_wv=49937" onclick="_tcTraObj._tcTrackEvent('click','guanggaolan01','wxhome','')"><img src="http://pic3.40017.cn/txoc/poster/2016/01/12/17/a5anSB.png" alt="">
+						</a>
+					</li>
+					<li class="slideItem">
+						<a href="http://open.show.qq.com/cgi-bin/login_state_auth_redirect?appid=101177501&amp;redirect_uri=http%3A%2F%2Fwx.17u.cn%2Fqqtrain%2F&amp;_wv=3" onclick="_tcTraObj._tcTrackEvent('click','guanggaolan11','wxhome','')"><img src="http://pic3.40017.cn/txoc/poster/2015/12/31/16/it99Gu.png" alt="">
+						</a>
+					</li>
+					<li class="slideItem">
+						<a href="http://app.ly.com/train/html/train/grabTicketQQ.html?tcwvclogin&amp;_wv=49937&amp;_wvc5=1" onclick="_tcTraObj._tcTrackEvent('click','guanggaolan21','wxhome','')"><img src="http://pic3.40017.cn/txoc/poster/2016/01/08/20/Vw2Qw1.png" alt="">
+						</a>
+					</li>
+				
+				</ul>
+		</div>
+	</div>
+		<div id="ad2" class="slideBox">
+			<div class="slideMain">
+				<ul class="slideCont">
+					<li class="slideItem">
+						<a href="http://app.ly.com/train/html/train/refundticket/refundticketqq.html?_wv=49937" onclick="_tcTraObj._tcTrackEvent('click','guanggaolan01','wxhome','')"><img src="http://pic3.40017.cn/txoc/poster/2016/01/12/17/a5anSB.png" alt="">
+						</a>
+					</li>
+					<li class="slideItem">
+						<a href="http://open.show.qq.com/cgi-bin/login_state_auth_redirect?appid=101177501&amp;redirect_uri=http%3A%2F%2Fwx.17u.cn%2Fqqtrain%2F&amp;_wv=3" onclick="_tcTraObj._tcTrackEvent('click','guanggaolan11','wxhome','')"><img src="http://pic3.40017.cn/txoc/poster/2015/12/31/16/it99Gu.png" alt="">
+						</a>
+					</li>
+					<li class="slideItem">
+						<a href="http://app.ly.com/train/html/train/grabTicketQQ.html?tcwvclogin&amp;_wv=49937&amp;_wvc5=1" onclick="_tcTraObj._tcTrackEvent('click','guanggaolan21','wxhome','')"><img src="http://pic3.40017.cn/txoc/poster/2016/01/08/20/Vw2Qw1.png" alt="">
+						</a>
+					</li>
+				
+				</ul>
+		</div>
+	</div>
+
+</body>
+</html>

@@ -155,6 +155,7 @@
             el.style.transform = str;
         },
         to: function(i) {
+             if(location.hash)return;
             var that = this;
             this.stop();
             this.transform(this.content, "translate3d(-" + i * 100 + "%, 0, 0)");
